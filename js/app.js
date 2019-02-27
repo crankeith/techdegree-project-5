@@ -3,7 +3,7 @@ const gallery = document.getElementById('gallery');
 const body = document.querySelector('body');
 
 //Get and store user data and display on page
-fetchUser(10)
+fetchUser(12)
     .then(data => {
         //Store user data and display user cards in gallery
         userData = data.results;
